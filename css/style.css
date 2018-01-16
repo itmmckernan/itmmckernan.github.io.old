@@ -17,7 +17,7 @@ html * {
 body {
   font-size: 100%;
   font-family: "Droid Serif", serif;
-  color: #7f8c97;
+  color: #000711;
   background-color: #e9f0f5;
 }
 
@@ -60,7 +60,7 @@ Main components
 
 -------------------------------- */
 header {
-  height: 200px;
+  height: 300px;
   line-height: 200px;
   text-align: center;
   background: #303e49;
@@ -73,7 +73,7 @@ header h1 {
 @media only screen and (min-width: 1170px) {
   header {
     height: 300px;
-    line-height: 300px;
+    line-height: 500px;
   }
   header h1 {
     font-size: 24px;
@@ -139,29 +139,29 @@ header h1 {
   position: absolute;
   top: 0;
   left: 0;
-  width: 40px;
-  height: 40px;
+  width: 240px;
+  height: 240px;
   border-radius: 50%;
   box-shadow: 0 0 0 4px white, inset 0 2px 0 rgba(0, 0, 0, 0.08), 0 3px 0 4px rgba(0, 0, 0, 0.05);
 }
 .cd-timeline-img img {
   display: block;
-  width: 24px;
-  height: 24px;
+  width: 64px;
+  height: 64px;
   position: relative;
-  left: 50%;
-  top: 50%;
-  margin-left: -12px;
-  margin-top: -12px;
+  left: 0%;
+  top: 0%;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 .cd-timeline-img.cd-picture {
-  background: #75ce66;
+  background: #ffffff;
 }
 .cd-timeline-img.cd-movie {
-  background: #c03b44;
+  background: #ffffff;
 }
 .cd-timeline-img.cd-location {
-  background: #f0ca45;
+  background: #ffffff;
 }
 @media only screen and (min-width: 1170px) {
   .cd-timeline-img {
